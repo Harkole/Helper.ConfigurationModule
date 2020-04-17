@@ -16,7 +16,7 @@ namespace Helper.ConfigurationModule
         public static IConfigurationRoot GetConfiguration(string fileName = "appsettings.json", bool isOptional = false, bool reloadOnChange = false)
         {
             // Get the appsettings file path
-            var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase), fileName);
+            var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), fileName);
 
             // Build the configuration extension
             return new ConfigurationBuilder()
