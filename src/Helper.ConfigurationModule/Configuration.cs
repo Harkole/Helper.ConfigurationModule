@@ -4,6 +4,10 @@ using Microsoft.Extensions.Configuration;
 
 namespace Helper.ConfigurationModule
 {
+    /// <summary>
+    /// Provides extensions to Microsoft.Extensions.Configuration to enable quicker
+    /// loading of the appsettings.json file from worker services and console apps
+    /// </summary>
     public static class Configuration
     {
         /// <summary>
