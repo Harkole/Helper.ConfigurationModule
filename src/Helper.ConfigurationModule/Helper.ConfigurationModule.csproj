@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <LangVersion>latest</LangVersion>
-    <PackageId>Configuration Helper</PackageId>
+    <PackageId>ConfigurationHelper</PackageId>
     <Authors>Will Blackburn</Authors>
     <Description>
       Provides extension methods to quickly load `appsettings.json` configuration details in to an application
